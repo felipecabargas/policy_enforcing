@@ -5,8 +5,11 @@ $local, $localrev, $remote, $remoterev = STDIN.read.split(" ")
 $regex   = /(\AADD)|(\AREMOVE)|(\AHOTFIX)|(\ARENAME)/
 
 puts "Enforcing policies..."
-puts "(#{$localrev}) (#{$remoterev})"
-  
+puts "===================================================================="
+puts "Local last revision: (#{$localrev})" 
+puts "Remote last revision: (#{$remoterev})"
+puts "\n"
+
 #Enforcing custom message on commits:
 #Commit should start with the following keywords:
   # ADD
