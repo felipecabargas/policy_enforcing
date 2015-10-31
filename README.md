@@ -10,6 +10,13 @@ Git hooks done easy.
 
 ![](http://cabargas.me/policy.png)
 
+**INSTALL:**
+
+```bash
+$ mv pre-push.rb destination_path/.git/hooks/pre-push
+$ chmod 777 destination_path/.git/hooks/pre-push
+```
+
 ##About
 
 ###Info
